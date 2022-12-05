@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac733722-1627-4bb3-a700-01852479b1d3" name="Changes" comment="changed the activity bc idk what i'm doing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sp00kqd/colorsbot/listeners/EventListener.java" afterDir="false" />
+    <list default="true" id="ac733722-1627-4bb3-a700-01852479b1d3" name="Changes" comment="message handling that took me way longer than i thought it would + other random stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sp00kqd/colorsbot/ColorsBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sp00kqd/colorsbot/ColorsBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sp00kqd/colorsbot/listeners/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sp00kqd/colorsbot/listeners/EventListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670218054041</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="message handling that took me way longer than i thought it would + other random stuff">
+      <created>1670231777814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670231777814</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +109,9 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="token stuff" />
     <MESSAGE value="changed the activity bc idk what i'm doing" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the activity bc idk what i'm doing" />
+    <MESSAGE value="message handling that took me way longer than i thought it would" />
+    <MESSAGE value="message handling that took me way longer than i thought it would + removing some" />
+    <MESSAGE value="message handling that took me way longer than i thought it would + other random stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="message handling that took me way longer than i thought it would + other random stuff" />
   </component>
 </project>

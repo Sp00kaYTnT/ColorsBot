@@ -16,11 +16,12 @@ public class EventListener extends ListenerAdapter {
 
         if ((getChannel.equals("TC:suggestions-input(1049177576855326790)")) && !event.getAuthor().isBot()) {
             try {
-                String l1 = splitMessage[0];
-                String l2 = splitMessage[1];
-                String l3 = splitMessage[2];
+                String channel = splitMessage[0];
+                String input = splitMessage[1];
+                String output = splitMessage[2];
 
-                System.out.println(l1 + l2 + l3);
+                event.getGuild().getTextChannelById("1049178220563550268").sendMessage(event.getAuthor().getAsMention() + " just suggested that **" + input + "** is " + output
+                + ", and it should go in " + channel).queue();
             } catch (ArrayIndexOutOfBoundsException e) {
                 event.getChannel().sendMessage(event.getAuthor().getAsMention() + ", invalid format.").queue(m -> m.delete().queueAfter(3, TimeUnit.SECONDS));
                 event.getMessage().delete().queue();
