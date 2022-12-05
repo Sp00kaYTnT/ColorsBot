@@ -1,5 +1,6 @@
 package com.sp00kqd.colorsbot;
 
+import com.sp00kqd.colorsbot.listeners.EventListener;
 import io.github.cdimascio.dotenv.Dotenv;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
@@ -20,6 +21,13 @@ public class ColorsBot {
         builder.setStatus(OnlineStatus.ONLINE);
         builder.setActivity(Activity.watching("you"));
         shardManager = builder.build();
+
+        // listeners
+        shardManager.addEventListener(new EventListener());
+    }
+
+    public Dotenv getConfig() {
+        return config;
     }
 
     public ShardManager getShardManager() {
