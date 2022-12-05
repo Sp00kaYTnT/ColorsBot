@@ -18,7 +18,7 @@ public class ColorsBot {
         DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createLight(config.get("TOKEN"));
 
         builder.setStatus(OnlineStatus.ONLINE);
-        builder.setActivity(Activity.streaming("click", "https://youtu.be/dQw4w9WgXcQ"));
+        builder.setActivity(Activity.watching("you"));
         shardManager = builder.build();
     }
 
