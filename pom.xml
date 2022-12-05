@@ -20,6 +20,12 @@
             <artifactId>JDA</artifactId>
             <version>5.0.0-alpha.18</version>
         </dependency>
+
+        <dependency>
+            <groupId>io.github.cdimascio</groupId>
+            <artifactId>dotenv-java</artifactId>
+            <version>2.3.1</version>
+        </dependency>
     </dependencies>
 
 </project>
